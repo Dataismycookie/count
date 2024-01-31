@@ -18,7 +18,7 @@ if st.sidebar.button("Increment"):
         st.success("Counter increase successful")
     else:
         st.error("Failed to increase counter")
-      if st.sidebar.button("Decrement"):
+if st.sidebar.button("Decrement"):
     # Send an API request to decrement the counter in your web-based database
     # Handle the response as needed
 #buttons to reset counter
